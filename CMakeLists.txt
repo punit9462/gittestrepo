@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(test)
+project(gittest)
 
 set( test_SRCS
 rectangle.cpp
