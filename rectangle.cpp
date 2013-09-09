@@ -1,5 +1,6 @@
 #include "rectangle.h"
 
+//constructor
 Rectangle::Rectangle(int x,int y)
 {
     height=y;
@@ -8,6 +9,7 @@ Rectangle::Rectangle(int x,int y)
     calculatePerimeter();
 }
 
+//area 
 void Rectangle::calculateArea()
 {
     if(height>=0 && width >=0) {
@@ -15,6 +17,7 @@ void Rectangle::calculateArea()
     }
 }
 
+//perimeter
 void Rectangle::calculatePerimeter()
 {
     if(height>=0 && width >=0) {
